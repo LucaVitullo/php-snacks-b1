@@ -38,7 +38,7 @@ $partite = [
 
     <?php
     for ($i = 0; $i < count($partite); $i++) {
-        echo  $partite[$i]['Casa'] . ' - ' . $partite[$i]['Ospiti'] . ' ' . $partite[$i]['PuntiCasa'] . '|' . $partite[$i]['PuntiOspiti'] . ' <br>';
+        echo  $partite[$i]['Casa'] . ' - ' . $partite[$i]['Ospiti'] . ' ' . $partite[$i]['PuntiCasa'] .  ' |' . $partite[$i]['PuntiOspiti'] . '<br>';
     };
     ?>
 
